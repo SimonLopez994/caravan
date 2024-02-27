@@ -1,0 +1,68 @@
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .sign-in-title {
+        font-family: 'Bebas Neue';
+        font-size: 4rem;
+        font-weight: 100;
+    }
+
+    .sign-in-form {
+        width: 100%;
+        max-width: 40rem;
+
+        display: flex;
+        flex-direction: column;
+
+        .sign-in-label {
+            font-size: 1.5rem;
+        }
+
+        .sign-in-input {
+            padding: 1rem;
+        }
+
+        .sign-in-btn {
+            font-size: 1.5rem;
+            font-weight: 600;
+            font-family: 'Kode Mono';
+            width: 25%;
+
+            color: rgb(254, 233, 6);
+            background: black;
+            padding: 0.6rem;
+            margin: 0 auto;
+            margin-top: 3rem;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .sign-in-btn:hover {
+            color: black;
+            background: rgb(254, 233, 6);
+        }
+
+        .sign-in-passwords {
+            font-size: 1.2rem;
+            text-decoration: underline;
+        }
+
+        .create-account {
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 2rem;
+            text-decoration: underline;
+        }
+
+        .sign-in-subscriptions {
+            font-size: 1.2rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+
+    }
+}

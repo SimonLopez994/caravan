@@ -1,0 +1,66 @@
+.subscriptions-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    .subscriptions-form {
+        width: 100%;
+        max-width: 40rem;
+
+        display: flex;
+        flex-direction: column;
+
+        .subscriptions-title {
+            font-family: 'Bebas Neue';
+            font-size: 4rem;
+            font-weight: 100;
+            text-align: center;
+        }
+
+        .subscriptions-instruction {
+            font-size: 1.3rem;
+            line-height: 2rem;
+            text-align: center;
+        }
+
+        .subscriptions-label {
+            font-size: 1.5rem;
+        }
+
+        .subscriptions-input {
+            padding: 1rem;
+            margin: 1rem;
+        }
+
+        .subscriptions-btn {
+
+            font-size: 1.2rem;
+            font-weight: 600;
+            font-family: 'Kode Mono';
+            width: 50%;
+
+            color: white;
+            background: black;
+            padding: 1rem;
+            margin: 0 auto;
+            margin-top: 3rem;
+            border: 1px solid black;
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+        .subscriptions-return-login{
+            font-size: 1.3rem;
+            text-align: center;
+            text-decoration: underline;
+            color: blue;
+            margin-top: 6rem;
+        }
+
+
+
+    }
+}
